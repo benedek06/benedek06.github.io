@@ -1,27 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
-    user-select: none;
+    background-color: black;
+    background-image: url(bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+#state {
+    color:rgb(247, 231, 195);
+    text-shadow: 1px 1px 3px rgb(41, 42, 45);
+}
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+input {
+    border: none;
+    background-color: rgb(67, 63, 52);
+    box-shadow: 1px 1px 3px rgb(41, 42, 45);
+    cursor: pointer;
     text-align: center;
-    background-color: rgb(0, 0, 0);
-    color: rgba(119, 4, 4, 0.877);
-    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+    margin-top: 10px;
+}
+#player1 {
+    color:rgb(130, 190, 214);
+}
+#player2 {
+    color:rgb(221, 46, 68);
+}
+table{
+    border-collapse: collapse;
+    border-spacing:0;
 }
 td {
-    width: 15px;
-    height: 15px;
-    background-color: rgba(119, 4, 4, 0.877);
-    box-shadow: 1px 1px 4px inset black;
-    border-radius: 2px;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(247, 231, 195);
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
     text-align: center;
-    font-size: 10px;
-    color: rgb(255, 255, 255);
+    color: rgb(51, 51, 51);
     user-select: none;
 }
-table {
-    cursor: none;
-    margin: auto;
-    padding: 6px;
-    border-spacing: 0px;
-    background-color: rgb(0, 0, 0);
-    border-radius: 7px;
-    box-shadow: 1px 1px 4px black;
+button {
+    border: none;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(67, 63, 52);
+    box-shadow: 1px 1px 3px rgb(41, 42, 45);
+    cursor: pointer;
+    text-align: center;
+    color:rgb(247, 231, 195);
+    margin-top: 10px;
 }
+button:hover {
+    background-color: rgb(247, 231, 195);
+}
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Azu-kitsu.github.io/style.css at main · Azu-kitsu/Azu-kitsu.github.io
