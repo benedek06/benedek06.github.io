@@ -5,19 +5,21 @@
     flex-direction: column;
     font-family:sans-serif;
 }
-.btn-1{
-    background-color: rgb(152, 5, 215);
+.btn-1 {
     text-decoration: none;
     position: relative;
+    background-color: rgb(96, 13, 250);
     color: aliceblue;
     font-family:sans-serif;
     font-style: italic;
-    border-radius: 3px;
+    margin-left: 11cm;
+    border-top:3pt;
+    border-radius: 10px;
     transition: transform 0.5s ease;
-    align-items: center;
-    font-size: 40px;
+    margin: 30px;
+
 }
-.btn-1:hover {
+.btn-1:hover{
     background-color: rgb(174, 0, 255);
     box-shadow: 10px -10px 25px 0 rgba(143, 64, 248, 0.5), -10px 10px 25px 0 rgba(39, 200, 255, 0.5);
 }
