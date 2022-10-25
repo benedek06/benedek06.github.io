@@ -93,3 +93,23 @@ body{
     background-image: url("hatter2.png");
     background-color: #cccccc;;
 }
+.btn-1 a span{
+    width:  0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: purple;
+    z-index: -1;
+    transition: 0.5s;
+}
+.btn-2 a span{
+    width:  0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: purple;
+    z-index: -1;
+    transition: 0.5s;
+}
