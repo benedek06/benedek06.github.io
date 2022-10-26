@@ -1,132 +1,57 @@
-h1{
+*{
+    margin: 0;
+    padding: 0;  
+}
+.container{
     text-align: center;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 80pt;
-    font-style: italic;
-    color: aliceblue;
-    margin-top: 7%;
-    border-top:3pt;
-    border-radius: 20px;
-    background-color:rgb(96, 13, 250);
+    color: #fff;
+    padding-top: 182px;
 }
-.buttons {
-    font-size: 60pt;
-    color: aliceblue;
-    flex-direction: column;
-    font-family:sans-serif;
-    text-align: center;
-    
+.container h1{
+    font-size: 58px;
+    font-family: Verdana;
 }
-
-body{
-    background-image: url("hatter.png");
-    background-color: #5624df;
+.container p{
+    font-size: 24px;
+    font-family: Verdana;
+    margin-top: 48px;
 }
-.btn-2 {
+.buttons{
+    margin: 69px auto 0;
+}
+.buttons a{
+    width: 160px;
     text-decoration: none;
+    z-index: 1;
+    color: rgb(0, 0, 0);
+    border: .50px solid rgb(0, 0, 0);
+    transition: color 0.5s;
+    font-family: Verdana;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
     position: relative;
-    background-color: rgb(96, 13, 250);
-    color: aliceblue;
-    font-family:sans-serif;
-    font-style: italic;
-    margin-left: 11cm;
-    border-top:3pt;
-    border-radius: 10px;
-    transition: transform 0.5s ease;
-    margin: 30px;
-
 }
-.btn-2:hover{
-    background-color: rgb(174, 0, 255);
-    box-shadow: 10px -10px 25px 0 rgba(143, 64, 248, 0.5), -10px 10px 25px 0 rgba(39, 200, 255, 0.5);
-}
-.btn-1 {
-        background-color: rgb(96, 13, 250);
-        color: aliceblue;
-        font-family: sans-serif;
-        font-style: italic;
-        text-decoration: none;
-        position: relative;
-        border-radius: 10px;
-        margin: 30px;
-        transition: transform 0.5s ease;
+.buttons a span{
+    width:  0%;
+    top: 0;
+    left: 0;
+    background: rgb(80, 0, 0);
+    z-index: -1;
+    transition: 1s;
+    height: 100%;
+    position: absolute;
 
 }
-.btn-1:hover{
-    background-color: rgb(174, 0, 255);
-    box-shadow: 10px -10px 25px 0 rgba(143, 64, 248, 0.5), -10px 10px 25px 0 rgba(39, 200, 255, 0.5);
+#gombok{
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-color: rgb(77, 77, 77);
 }
-.btn-3 {
-    background-color: rgb(96, 13, 250);
-    text-decoration: none;
-    position: relative;
-    color: aliceblue;
-    font-family:sans-serif;
-    font-style: italic;
-    border-radius: 10px;
-    transition: transform 0.5s ease;
-    margin: 30px;
+.buttons a:hover span{
+    width: 100%;
 }
-.btn-3:hover{
-    background-color: rgb(174, 0, 255);
-    box-shadow: 10px -10px 25px 0 rgba(143, 64, 248, 0.5), -10px 10px 25px 0 rgba(39, 200, 255, 0.5);
-}
-.btn-1:hover{
-    background-color: rgb(174, 0, 255);
-    box-shadow: 10px -10px 25px 0 rgba(143, 64, 248, 0.5), -10px 10px 25px 0 rgba(39, 200, 255, 0.5);
-}
-.btn-4 {
-    background-color: rgb(96, 13, 250);
-    text-decoration: none;
-    position: relative;
-    color: aliceblue;
-    font-family:sans-serif;
-    font-style: italic;
-    border-radius: 10px;
-    transition: transform 0.5s ease;
-    margin: 30px;
-}
-.btn-4:hover{
-    background-color: rgb(174, 0, 255);
-    box-shadow: 10px -10px 25px 0 rgba(143, 64, 248, 0.5), -10px 10px 25px 0 rgba(39, 200, 255, 0.5);
-}
-.btn-1 a span{
-    width:  0%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: purple;
-    z-index: -1;
-    transition: 0.5s;
-}
-.btn-2 a span{
-    width:  0%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: purple;
-    z-index: -1;
-    transition: 0.5s;
-}
-.btn-3 a span{
-    width:  0%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: purple;
-    z-index: -1;
-    transition: 0.5s;
-}
-.btn-4 a span{
-    width:  0%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: purple;
-    z-index: -1;
-    transition: 0.5s;
+.buttons a:hover{
+    color: rgb(255, 255, 255);
 }
