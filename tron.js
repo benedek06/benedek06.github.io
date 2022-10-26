@@ -1,9 +1,9 @@
 get = id => document.getElementById(id)
 Nai = (length, func) => Array(length).fill().map(func)
 const Fills = {
-    Def: "rgb(20, 120, 200)",
-    Green: "rgb(13, 128, 2)",
-    Red: "rgb(155, 12, 31)"
+    Def: "aliceblue",
+    Green: "aliceblue",
+    Red: "rgb(80, 0, 0)"
 }
 const Heading = {
     Up: 0,
