@@ -4,7 +4,7 @@
 }
 body {
     background-color: black;
-    background-image: url(hatter3.png);
+    background-color: gray;
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Courier New', Courier, monospace;
@@ -18,18 +18,17 @@ main {
 }
 #state {
     color:rgb(0, 153, 255);
-    text-shadow: 1px 1px 3px rgb(20, 60, 150);
 }
 input {
     border: none;
-    background-color: rgb(20, 60, 150);
-    box-shadow: 1px 1px 3px rgb(20, 60, 150);
+    background-color:rgb(80, 0, 0) ;
+    box-shadow: 1px 1px 3px rgb(80, 0, 0);
     cursor: pointer;
     text-align: center;
     margin-top: 10px;
 }
 #player1 {
-    color:rgb(13, 128, 2);
+    color:rgb(80, 0, 0);
 }
 #player2 {
     color:rgb(155, 12, 31);
@@ -41,20 +40,20 @@ table{
 td {
     width: 10px;
     height: 10px;
-    background-color: rgb(60, 15, 180);
+    background-color: rgb(80, 0, 0);
     margin: 0;
     padding: 0;
     cursor: pointer;
     text-align: center;
-    color: rgb(20, 60, 150);
+    color: rgb(80, 0, 0);
     user-select: none;
 }
 button {
     border: none;
     width: 30px;
     height: 30px;
-    background-color: rgb(20, 120, 200);
-    box-shadow: 1px 1px 3px rgb(20, 60, 150);
+    background-color: gray;
+    box-shadow: 1px 1px 3px rgb(80, 0, 0);
     cursor: pointer;
     text-align: center;
     color:rgb(255, 255, 255);
