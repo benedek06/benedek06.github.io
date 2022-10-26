@@ -17,12 +17,12 @@ main {
     transform: translate(-50%, -50%);
 }
 #state {
-    color:rgb(0, 153, 255);
+    color:aliceblue;
 }
 input {
     border: none;
-    background-color:rgb(80, 0, 0) ;
-    box-shadow: 1px 1px 3px rgb(80, 0, 0);
+    background-color:aliceblue;
+    box-shadow: 1px 1px 3px aliceblue;
     cursor: pointer;
     text-align: center;
     margin-top: 10px;
@@ -45,7 +45,7 @@ td {
     padding: 0;
     cursor: pointer;
     text-align: center;
-    color: rgb(80, 0, 0);
+    color: aliceblue;
     user-select: none;
 }
 button {
@@ -53,12 +53,12 @@ button {
     width: 30px;
     height: 30px;
     background-color: gray;
-    box-shadow: 1px 1px 3px rgb(80, 0, 0);
+    box-shadow: 1px 1px 3px aliceblue;
     cursor: pointer;
     text-align: center;
-    color:rgb(255, 255, 255);
+    color:aliceblue;
     margin-top: 10px;
 }
 button:hover {
-    background-color: rgb(200, 230, 200);
+    background-color: rgb(80, 0, 0);
 }
