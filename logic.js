@@ -8,9 +8,9 @@ window.addEventListener('DOMContentLoaded', () => {
     let currentPlayer = 'X';
     let isGameActive = true;
 
-    const PLAYERX_WON = 'PLAYERX_WON';
-    const PLAYERO_WON = 'PLAYERO_WON';
-    const TIE = 'TIE';
+    const PLAYERX_WON = 'Játékos1 nyert';
+    const PLAYERO_WON = 'Játékos0 nyert';
+    const TIE = 'Döntetlen';
 
 
     /*
@@ -60,13 +60,13 @@ window.addEventListener('DOMContentLoaded', () => {
     const announce = (type) => {
         switch(type){
             case PLAYERO_WON:
-                announcer.innerHTML = 'Player <span class="playerO">O</span> Won';
+                announcer.innerHTML = 'Player <span class="playerO">O</span> Nyert';
                 break;
             case PLAYERX_WON:
-                announcer.innerHTML = 'Player <span class="playerX">X</span> Won';
+                announcer.innerHTML = 'Player <span class="playerX">X</span> Nyert';
                 break;
             case TIE:
-                announcer.innerText = 'Tie';
+                announcer.innerText = 'Döntetlen';
         }
         announcer.classList.remove('hide');
     };
