@@ -9,29 +9,30 @@
 </head>
 <body>
     <h1>Házi</h1>
-    <p1>lista = list(map(lambda x: list(map(int, x.split(","))),open("input.txt").read().split("\n")))
+    <p1>lista = list(map(lambda x: list(map(int, x.split(","))),open("input.txt").read().split("\n")))</p1>
 
-        #  2. feladat
+    <p2>    #  2. feladat
         lista1 = list(map(lambda x: x,sorted(lista[0])[-10:]))
         print("1. ", sum(lista1))
-
-        #  3. feladata
+    </p2>
+    <p3> #  3. feladata
         from functools import reduce
         lista2 = reduce(lambda x, y: x * y, filter(lambda x: x%3, lista[1]))
         print(f'2. 10^', len(str(lista2)))
-
-        #  4. feladat
+    </p3>
+    <p4> #  4. feladat
         print("4. ",sum(lista[2]))
-
-        #  5. feladat
+    </p4>
+    <p5>    #  5. feladat
         lista4 = list(map(lambda x: x**2,sorted(lista[3])[-21:]))
         print("5. ", sum(lista4))
-
-        #  6. feladat
+    </p5>
+    <p6> #  6. feladat
         lista5 = list(map(lambda x: x,sorted(lista[4])[10:]))
         print("6. ", sum(lista5))
-
-        #  7. feladat
-        print("7. ", max(sorted(sum(lista, []))[12:]))</p1>
+    </p6>
+    <p7>    #  7. feladat
+        print("7. ", max(sorted(sum(lista, []))[12:]))
+    </p7>
 </body>
 </html>
